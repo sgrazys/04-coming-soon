@@ -19,12 +19,14 @@
     margin-left: calc(50% - 300px) ;
 }
 
-.container > .row > .left-col {
-width: 50%;
-    
+.container > .row > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
 }
 
-.container > .row > .right-col {
+.container > .row > .right {
     width: 40%;
 }
 
@@ -53,12 +55,9 @@ width: 50%;
         width: 100%;
         margin-left: 0;
     }
-    .container > .row > .left-col {
-    width: 100%;
-    }
     
-    .container > .row > .right-col {
-        width: 100%;
+    .container > .row > .column {
+    width: 100%;
     }
 
 }
