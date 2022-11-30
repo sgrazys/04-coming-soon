@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.logo {
+.hero .logo {
     height: 30px;
     margin-bottom: 25px;
 }
@@ -45,12 +45,12 @@ footer.container {
 }
 
 .row.socials {
-    font-size: 18px;
+    font-size: 20px;
     justify-content: center;
     gap: 0.55em;
     padding-top: 0.6em;
     padding-bottom: 0.8em;
-    margin-bottom: 0.8em;
+    margin-bottom: 2em;
     border-bottom: solid 1px white;
 }
 
@@ -71,7 +71,34 @@ footer.container {
 }
 
 .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff8;
+
 }
+
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+
+.bottom > .trio {
+    color: #fff4;
+    display: flex;
+    gap: 20px;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom a:hover {
+    color: #fff4;
+}
+
+
 
 @media (max-width: 900px) {
     .section-title {
