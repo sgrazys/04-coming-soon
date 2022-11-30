@@ -18,5 +18,5 @@ body {
 }
 
 .bg-blue {
-    background-color: #36f;
+    background-color:var(--main-color);
 }
