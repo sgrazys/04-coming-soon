@@ -40,6 +40,39 @@
     text-decoration: underline;
 }
 
+footer.container {
+    padding-top: 0;
+}
+
+.row.socials {
+    font-size: 18px;
+    justify-content: center;
+    gap: 0.55em;
+    padding-top: 0.6em;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
+    border-bottom: solid 1px white;
+}
+
+.socials > a {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+.socials > a:hover {
+    color: var(--main-color);
+    background-color: white;
+    border-radius: 3.5em;
+}
+
+.bottom {
+}
+
 @media (max-width: 900px) {
     .section-title {
         font-size: 18px;
