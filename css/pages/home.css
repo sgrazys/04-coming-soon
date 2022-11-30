@@ -17,12 +17,6 @@
 }
 
 .main-description {
-    font-size: 22px;
-}
-
-.clock {
-    display: flex;
-    width: 80%;
-    background-color: bisque;
-    justify-content: center;
+    font-size: 21px;
+    color: lightgrey;
 }
