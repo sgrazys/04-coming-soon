@@ -21,11 +21,9 @@
 }
 .progress-bar-list > .progress-bar > .progress {
     height: 6px;
-    width: 100%;
     background-color: #ccc;
 }
 .progress-bar-list .progress > .bar {
     height: 100%;
-    width: 90%;
     background-color: var(--main-color);
 }
