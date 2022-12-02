@@ -85,7 +85,21 @@ footer.container {
 .bottom > .trio {
     color: #fff4;
     display: flex;
-    gap: 0px 20px;
+    gap: 0 20px;
+}
+
+.bottom > .trio > p {
+    position: relative;
+}
+
+.bottom > .trio > p + p::before{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    background-color: #fff4;
+    position: absolute;
+    left: -10.5px;
 }
 
 .bottom a {
@@ -126,3 +140,4 @@ footer.container {
         color: #fff4;
     }
 }
+
