@@ -139,5 +139,9 @@ footer.container {
         flex-direction: column;
         color: #fff4;
     }
+    .bottom > .trio > p + p::before{
+        content: '';
+        display: none;
+    }
 }
 
