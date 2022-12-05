@@ -5,55 +5,44 @@
     gap: 15px;
     text-align: center;
 }
-
 .hero .logo {
     height: 30px;
     margin-bottom: 25px;
 }
-
 .main-title {
     font-size: 50px;
     text-transform: uppercase;
 }
-
 .main-description {
     font-size: 21px;
     color: var(--font-color);
 }
-
 .section-title {
     font-size: 21px;
     text-transform: uppercase;
 }
-
 .section-description {
     font-size: 16px;
     color: var(--font-color);
 }
-
 .section-description > a {
     text-decoration: none;
     color: var(--secondary-color);
 }
-
 .section-description > a:hover {
     text-decoration: underline;
 }
-
 footer.container {
     padding-top: 0;
 }
-
 .row.socials {
     font-size: 20px;
     justify-content: center;
     gap: 0.55em;
-    padding-top: 0.6em;
-    padding-bottom: 0.8em;
+    padding: 0.6em 0 0.8em;
     margin-bottom: 2em;
     border-bottom: solid 1px white;
 }
-
 .socials > a {
     width: 2em;
     height: 2em;
@@ -63,13 +52,11 @@ footer.container {
     color: white;
     transition: all 0.4s;
 }
-
 .socials > a:hover {
     color: var(--main-color);
     background-color: white;
     border-radius: 3.5em;
 }
-
 .bottom {
     display: flex;
     flex-direction: column;
@@ -77,21 +64,17 @@ footer.container {
     text-align: center;
     color: #fff8;
 }
-
 .bottom > .logo {
     margin-bottom: 40px;
 }
-
 .bottom > .trio {
     color: #fff4;
     display: flex;
     gap: 0 20px;
 }
-
 .bottom > .trio > p {
     position: relative;
 }
-
 .bottom > .trio > p + p::before{
     content: '';
     display: inline-block;
@@ -101,20 +84,16 @@ footer.container {
     position: absolute;
     left: -10.5px;
 }
-
 .bottom a {
     text-decoration: none;
     color: #fff;
 }
-
 .bottom a:hover {
     color: #fff4;
 }
-
 .footer-description {
     margin-top: 15px;
 }
-
 
 @media (max-width: 900px) {
     .section-title {
@@ -124,7 +103,6 @@ footer.container {
         font-size: 15px;
     }
 }
-
 @media (max-width: 700px) {
     .main-title {
         font-size: 60px;
@@ -133,7 +111,6 @@ footer.container {
         gap: 20px 0px;
     }
 }
-
 @media (max-width:550px) {
     .bottom > .trio {
         flex-direction: column;
