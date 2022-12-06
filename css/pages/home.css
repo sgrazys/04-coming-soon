@@ -1,4 +1,12 @@
-.container > .hero {
+.container.hero {
+    background-color: var(--main-color);
+    background-image: url(../../img/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.container.hero > .short-row {
     display: flex;
     flex-direction: column;
     align-items: center;
