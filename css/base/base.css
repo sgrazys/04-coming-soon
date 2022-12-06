@@ -3,6 +3,9 @@
     --secondary-color: #D63864;
     --font-color: #999999;
 }
+html {
+    scroll-behavior: smooth;
+}
 body,
 body *  {
     padding: 0;
