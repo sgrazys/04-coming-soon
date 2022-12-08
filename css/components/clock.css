@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     width: 100%;
     color: #fff;
+    margin-bottom: 40px;
 }
 
 .clock > .time {
