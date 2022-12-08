@@ -6,11 +6,30 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    grid-template-areas:
+        "name email"
+        "msg msg"
+        "btn btn";
 }
 
-form > .cell-long {
-    grid-column: span 2;
+form > .name-field {
+    grid-area: name;
 }
+
+form > .email-field {
+    grid-area: email;
+}
+
+form > .message-field {
+    grid-area: msg;
+}
+
+form > .btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: btn;
+}
+
 
 form > div > label {
     display: none;
@@ -30,4 +49,16 @@ form > div > textarea {
     resize: vertical;
     min-height: 4.6em;
     max-height: 13em;
+}
+
+
+@media (max-width: 450px) {
+    form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "name"
+        "email"
+        "msg"
+        "btn";
+    }
 }
