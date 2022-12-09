@@ -1,0 +1,41 @@
+.progress-bar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.progress-bar-list > .progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.progress-bar-list > .progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar-list .top > .label {
+    color: var(--font-color);
+    text-transform: capitalize;
+}
+.progress-bar-list .top > .value {
+    color: var(--font-color);
+}
+.progress-bar-list > .progress-bar > .progress {
+    height: 6px;
+    background-color: #ccc;
+}
+.progress-bar-list .progress > .bar {
+    height: 100%;
+    width: var(--w);
+    background-color: var(--main-color);
+    animation-name: loading;
+    animation-duration: 2s; 
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: var(--w);
+    }
+}

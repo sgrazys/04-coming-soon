@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container > .row {
+    --w: 1000px;  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 0;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+}
+
+.container > .short-row {
+    --w: 600px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+}
+
+.container > .row > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.container > .row > .right {
+    width: 40%;
+}
+
+@media (max-width:1100px) {
+    .container > .row {
+        --w: 800px;
+    }       
+}
+
+@media (max-width:850px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container > .short-row,
+    .container > .row {
+        --w: 100%;
+    }
+    .container > .row > .column {
+        width: 100%;
+    }
+}

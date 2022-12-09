@@ -1,0 +1,19 @@
+.cell-long > .btn {
+    width: auto;
+    border: none;
+    border-radius: 0.2em;
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    line-height: 1em;
+    color: #fff;
+    padding: 1em;
+    transition: all 0.3s;
+    text-transform: capitalize;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 3px #0008;
+    opacity: 1;
+}
