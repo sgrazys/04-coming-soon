@@ -25,6 +25,43 @@
     font-size: 21px;
     color: var(--font-color);
 }
+
+.hero > .short-row > form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 88%;
+    gap: 40px;
+    grid-template-areas:
+        "email"
+        "btn";
+}
+
+.hero .subscribe-field > input  {
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.hero .subscribe-field > input::placeholder  {
+    color: #fff;
+}
+
+.hero div > .btn {
+    width: auto;
+    border: none;
+    border-radius: 0.2em;
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    line-height: 1em;
+    color: #fff;
+    padding: 1em;
+    transition: all 0.3s;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.hero div > .btn:hover {
+    box-shadow: 0 2px 3px #0008;
+}
+
 .section-title {
     font-size: 21px;
     text-transform: uppercase;
